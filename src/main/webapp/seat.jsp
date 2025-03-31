@@ -78,7 +78,7 @@
     </div>
     <p class="mt-4">Selected Seats: <span id="selected-seats">None</span></p>
     <p>Total Price: <span id="total-price">0</span> LKR </p>
-    <button id="reserve-btn" class="reserve-btn mt-4 px-4 py-2 rounded-lg" onclick="window.location.href = 'payment.html';">Reserve</button>
+    <button id="reserve-btn" class="reserve-btn mt-4 px-4 py-2 rounded-lg" onclick="window.location.href = 'payment.jsp';">Reserve</button>
 </div>
 
 <script>

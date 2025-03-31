@@ -1,4 +1,4 @@
-package com.app.movie;
+package com.app.movie.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
