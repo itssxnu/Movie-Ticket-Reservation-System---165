@@ -1,0 +1,125 @@
+:root {
+    --primary-600: #ffffff;
+    --text-color: #ffffff;
+    --background:linear-gradient(117deg,
+            rgba(37, 37, 43, 0.95) 27%,
+            rgba(62, 61, 74, 1) 62%,
+            rgba(72, 72, 108, 1) 100%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--background);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1F2937;
+    padding: 2rem;
+    /*border: 2px solid #f8ce35;*/
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 10px rgba(246, 211, 82, 0.573);
+}
+
+h1 {
+    color: var(--primary-600);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: light;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid var(--primary-300);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 9.7rem;
+}
+
+.long {
+    width: 98%;
+}
+
+.row {
+    display: flex;
+    gap: 13px;
+}
+
+.column {
+    flex: 1;
+}
+
+.button-primary {
+    background-color: #f8ce35;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 55px;
+    font-size: 16px;
+    cursor: pointer;
+    /*box-shadow: 0 0 8px rgba(248, 206, 53, 0.7);*/
+    transition: all 0.3s ease;
+    width: 104%;
+}
+
+.button-primary:hover {
+    background-color: #f8ce35;
+    box-shadow: 0 0 8px rgba(248, 206, 53, 1);
+    transform: scale(1.05);
+}
+
+.price-container {
+    background: #374151;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.479);
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.price-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+dt {
+    font-weight: 600;
+    
+}
+
+dd {
+    margin: 0;
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid #ffffff33;
+    margin: 10px 0;
+}

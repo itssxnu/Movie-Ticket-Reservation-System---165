@@ -1,0 +1,159 @@
+a {
+    all: unset;
+    transition: box-shadow 0.3s ease;
+    color: #f8ce35;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+.a:hover {
+    background-color: gold;
+    color: black;
+    box-shadow: 0 0 20px rgba(253, 217, 106, 0.8);
+}
+
+.movies-page {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    align-items: flex-start;
+    gap: 92px;
+    padding: 42px 132px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(117deg,
+            rgba(37, 37, 43, 0.95) 36%,
+            rgba(62, 61, 74, 1) 82%,
+            rgba(72, 72, 108, 1) 93%);
+}
+
+.movies-page .navbar {
+    position: relative;
+    width: 1183px;
+    height: 38px;
+    margin-right: -7.00px;
+}
+
+.movies-page .text-wrapper {
+    left: 0;
+    font-family: "Outfit-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #fff9f9;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.movies-page .div {
+    width: 100px;
+    left: 598px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3.00px;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.movies-page .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 768px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #f8ce35;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3.00px;
+    line-height: normal;
+}
+
+.movies-page .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 950px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3.00px;
+    line-height: normal;
+}
+
+.movies-page .dropdown {
+    display: flex;
+    width: 275px;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding: 10px 15px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #9a999917;
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: #ffffff;
+}
+
+.movies-page .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    font-family: var(--text-md-normal-font-family);
+    font-weight: var(--text-md-normal-font-weight);
+    color: #ffffff;
+    font-size: var(--text-md-normal-font-size);
+    letter-spacing: var(--text-md-normal-letter-spacing);
+    line-height: var(--text-md-normal-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-normal-font-style);
+}
+.dropdowns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.text-wrapper-4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select {
+    appearance: none;
+    background-color: #706f6c;
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+

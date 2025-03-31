@@ -1,0 +1,449 @@
+a {
+    all: unset;
+    transition: box-shadow 0.3s ease;
+    color: #f8ce35;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+
+.buy-tickets {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: x;
+}
+
+.buy-tickets .div {
+    background: linear-gradient(117deg,
+            rgba(37, 37, 43, 0.95) 36%,
+            rgba(62, 61, 74, 1) 82%,
+            rgba(72, 72, 108, 1) 93%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.button-movie-option {
+    position: absolute;
+    top: 11px;
+    left: 49px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+.buy-tickets .navbar {
+    position: absolute;
+    width: 1183px;
+    height: 38px;
+    top: 42px;
+    left: 133px;
+}
+
+.buy-tickets .text-wrapper {
+    left: 0;
+    font-family: "Outfit-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #fff9f9;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.buy-tickets .text-wrapper-2 {
+    width: 100px;
+    left: 598px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3.00px;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.buy-tickets .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 768px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3.00px;
+    line-height: normal;
+}
+
+.buy-tickets .text-wrapper-4 {
+    position: absolute;
+    top: 0;
+    left: 950px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #f8ce35;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3.00px;
+    line-height: normal;
+}
+
+.buy-tickets .text-wrapper-5 {
+    top: 162px;
+    position: absolute;
+    left: 133px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #fdd96a;
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .text-wrapper-6 {
+    top: 333px;
+    position: absolute;
+    left: 133px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #fdd96a;
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .text-wrapper-7 {
+    top: 504px;
+    position: absolute;
+    left: 133px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #fdd96a;
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap {
+    height: 54px;
+    top: 226px;
+    left: 133px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-8 {
+    position: absolute;
+    top: 11px;
+    left: 49px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap-group {
+    height: 54px;
+    top: 397px;
+    left: 133px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-9 {
+    position: absolute;
+    top: 11px;
+    left: 23px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .div-wrapper {
+    height: 54px;
+    top: 568px;
+    left: 133px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-10 {
+    left: 56px;
+    position: absolute;
+    top: 11px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap-2 {
+    height: 54px;
+    top: 226px;
+    left: 333px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-11 {
+    position: absolute;
+    top: 11px;
+    left: 25px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap-3 {
+    height: 54px;
+    top: 397px;
+    left: 333px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+}
+
+.buy-tickets .text-wrapper-12 {
+    position: absolute;
+    top: 11px;
+    left: 22px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap-group-2 {
+    height: 54px;
+    top: 568px;
+    left: 333px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-13 {
+    left: 55px;
+    position: absolute;
+    top: 11px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .flexcontainer-wrapper {
+    height: 54px;
+    top: 226px;
+    left: 533px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    position: relative;
+    width: 120px;
+    height: 22px;
+    top: 0px;
+    left: 25px;
+}
+
+.buy-tickets .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4.00px;
+    line-height: 20px;
+}
+
+.buy-tickets .span {
+    letter-spacing: 0.80px;
+}
+
+.buy-tickets .overlap-4 {
+    height: 54px;
+    top: 397px;
+    left: 533px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-14 {
+    position: absolute;
+    top: 11px;
+    left: 59px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap-5 {
+    height: 54px;
+    top: 568px;
+    left: 533px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .overlap-6 {
+    height: 54px;
+    top: 397px;
+    left: 733px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .text-wrapper-15 {
+    position: absolute;
+    top: 11px;
+    left: 34px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe396;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.buy-tickets .overlap-7 {
+    height: 54px;
+    top: 568px;
+    left: 733px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #ffe396;
+    position: absolute;
+    width: 175px;
+    background-color: transparent;
+
+}
+
+.buy-tickets .overlap-8 {
+    height: 61px;
+    top: 660px;
+    left: 633px;
+    background-color: #f8ce35;
+    border-radius: 100px;
+    position: absolute;
+    width: 175px;
+    border: none;
+}
+
+.buy-tickets .text-wrapper-16 {
+    position: absolute;
+    top: 18px;
+    left: 19px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e20;
+    font-size: 20px;
+    letter-spacing: 4.00px;
+    line-height: 24px;
+    white-space: nowrap;
+}
