@@ -64,8 +64,8 @@
         }
 
         .selected {
-            background-color: rgba(253, 217, 106, 0.5);
-            color: black;
+            background-color: rgba(253, 217, 106, 0.5) !important;
+            color: black !important;
         }
 
         .flexcontainer-wrapper {
