@@ -60,5 +60,3 @@ A simple web-based movie ticket booking system built using Java Servlets, JSP, a
 
 its_SxNu
 
----
-
