@@ -84,12 +84,12 @@
 
 <div class="form-container">
   <h2>Your Details</h2>
-  <form>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <form action="RegisterServlet" method="post">
+    <input type="text" id="name" name="username" placeholder="Enter your name" required>
 
     <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-    <input type="tel" id="phone" name="phone" class="phone-input"
+    <input type="tel" id="phone" name="mobile" class="phone-input"
            placeholder="Enter mobile number" pattern="^07[0-9]{8}$" required>
 
     <input class="button" type="submit" value="Next">
