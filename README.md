@@ -56,9 +56,7 @@ A simple web-based movie ticket booking system built using Java Servlets, JSP, a
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 its_SxNu
-
----
 
